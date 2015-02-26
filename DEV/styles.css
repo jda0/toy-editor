@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: Consolas, monospace;
+}
+body, textarea {
+  background: #272822;
+  color: #fff;
+  border: none;
+}
+
+.CodeMirror {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+}
+.footer {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  width: 100%;
+  max-height: 10%;
+  text-align: center;
+  background: #171814;
+  padding: 1.25%;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,.3);
+  text-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
+.footer span {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  background: #171814;
+  padding: 5% 1.25%;
+  border-left: 1px solid #505050;
+}
